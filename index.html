@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+ <style type="text/css">
+    label{
+    width: 180px;
+    height: 20px;
+    padding: 5px;
+    font-size: 15px;
+    margin: 0;
+    padding: 1px black;
+    display: inline-block;
+    }
+ </style>
+</head>
+<body>
+    <form>
+        <fieldset>
+            <legend>Your address</legend> 
+            <div>
+                <label for="firstname" >First name</label>
+                <input type="text" id="firstname" required />
+             </div>
+             <br />
+
+             <div>
+                <label for="lastname">Last name</label>
+                <input type="text" id="lastname" required />
+             </div>
+             <br />
+             
+             <div>
+                <label for="street" >street</label>
+                <input type="text" id="street" />
+             </div>
+             <br />
+
+             <div>
+                <label for="city">City</label>
+                <input type="text" id="city"/>
+             </div>
+             <br />
+    </form> 
+</body>
+</fieldset>
+        <form>
+        <fieldset>
+            <legend>Your address</legend>  
+            <div>          
+                <label for="biography">biography</label>
+                <textarea name="" id="Hobbies" cols="20" rows="1.5"></textarea>
+                </div>
+              <br />
+
+             <div>
+                <label for="fileselect"> image</label>
+                <input type="file" placeholder="choose file" id="fileselect">
+             </div>
+              <br>
+
+              <div>
+                <label for="Agegroup">Age group</label>
+                <input type="number" placeholder="0-9 years old" id="Agegroup" max="9" />
+              </div>
+        </form>
+        </fieldset>
+        <form>
+            <fieldset>
+                <legend>Interest</legend>           
+                    <label for="Hobbies" >Hobbies</label>
+                    <textarea  name="hobbbies" cols="12" rows="6" id="Hobbies"
+                      placeholder="Playing soccer Dancing Gardening watching movies" ></textarea>
+                 </div>
+                 <br />
+    
+                 <div>
+                    <label for="cars">favourite type of car?</label>
+                    <select name="cars" id="cars">
+                        <option value="volvo">Volvo</option>
+                        <option value="toyota">Toyota</option>
+                    </select>
+                 </div>
+                  <br>
+    
+                  <div>
+                    <label for="transport"> Favourite public transport?</label>
+                    <textarea placeholder="Group train water bus" cols ="6" rows="4"></textarea>
+                    <section>
+
+                    </section>
+                  </div>
+            </fieldset>
+        </form>
+</head> 
+</html>
